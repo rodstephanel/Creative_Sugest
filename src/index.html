@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- Script da página -->
+    <script type="text/javascript" src="./js/script.js"></script>
+    <title>Sugestão Criativa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha a sugestão</h1>
+        <p>Selecione uma ou mais opções:</p>
+        <div class="options">
+            <label><input type="checkbox" name="options" value="1"> Animais        </label><br>
+            <label><input type="checkbox" name="options" value="2"> Profissões     </label><br>
+            <label><input type="checkbox" name="options" value="3"> Elementos      </label><br>
+            <label><input type="checkbox" name="options" value="4"> Classe         </label><br>
+            <label><input type="checkbox" name="options" value="5"> Estilo         </label><br>
+            <label><input type="checkbox" name="options" value="6"> Ambiente       </label><br>
+            <label><input type="checkbox" name="options" value="7"> Sem ideia, me escolha   </label>
+        </div>
+        <button onclick="mostrarSugestao()">Obter Sugestão Criativa</button>
+        <div id="suggestion" class="suggestion"></div>
+    </div>
+
+</body>
+</html>
