@@ -1,0 +1,23 @@
+{
+  "name": "creative_sugest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodstephanel/Creative_Sugest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodstephanel/Creative_Sugest/issues"
+  },
+  "homepage": "https://github.com/rodstephanel/Creative_Sugest#readme",
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
